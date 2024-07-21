@@ -1,0 +1,16 @@
+{
+  "name": "api-task",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "API to register, change, cancel and delete tasks.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "Luís Fernando",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}
